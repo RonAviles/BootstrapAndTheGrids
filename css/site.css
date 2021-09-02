@@ -25,3 +25,7 @@ main>.container {
 .minHeight{
     min-height: 80vh;
 }
+body> main{
+    margin-bottom:60px;
+    margin-top:20px;
+}

@@ -19,6 +19,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
+
         <a class="navbar-brand" href="#">Bootstrap Grids</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,14 +64,15 @@
 
     <main class="flex-shrink-0">
        <div class="container minHeight h-100">
-           <ul class="nav nav-pills mb-1">
-                <li class="nav-item">
-                    <a href="/Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/Grid3b.html" class="nav-link"> Grid 3b</a>
-                </li>
-           </ul>
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a href="/Grid3.html" class="nav-link">Grid 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="/Grid3b.html" class="nav-link active" aria-current="page"> Grid 3b</a>
+            </li>
+       </ul>
+
            <div class="row h-100">
                <div class="col-7">
                    <div class="bg-secondary text-light p-2 h-100">
@@ -79,16 +81,26 @@
                    </div>
                </div>
                <!--RIGHT COLUMN-->
-               <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
-                   <div class="bg-dark text-white h-50 p-2">
-                    <p>Random Txt generated as a placeholder for the exercise.</p>
+               <div class="col-5">
+                   <div class="bg-secondary text-white p-2">
+                       <form class="d-flex">
+                           <input class="form-control me-2" type="search" placeholder="search" araia-label="search">
+                           <button class="btn btn-outline-light" type="submit">Search</button>
+                       </form>
                    </div>
-                   <div class="bg-dark text-white h-50 mt-2 p-2 overflow-auto">
-                    <p>Random Txt generated as a placeholder for the exercise.</p>
-
-                   </div>
-                   <div class="bg-dark text-light border-top p-2">
-                       <button class="btn btn-light" type="button">Read More</button>
+                   <div class="bg-dark text-white mt-2 p-2">
+                    <h5>More Articles</h5>>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Article One</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Article Two</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Article Three</a>
+                        </li>
+                    </ul>
                    </div>
                </div>
            </div>
